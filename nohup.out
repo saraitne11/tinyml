@@ -1,0 +1,258 @@
+[I 10:49:37.711 NotebookApp] Serving notebooks from local directory: /home/jangwon/tinyml
+[I 10:49:37.711 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 10:49:37.711 NotebookApp] http://edgetcl:8888/?token=31bdcd6940967fb1b5bc029655629b0d37d903607390ae6e
+[I 10:49:37.711 NotebookApp]  or http://127.0.0.1:8888/?token=31bdcd6940967fb1b5bc029655629b0d37d903607390ae6e
+[I 10:49:37.711 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:49:37.713 NotebookApp] No web browser found: could not locate runnable browser.
+[C 10:49:37.713 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/jangwon/.local/share/jupyter/runtime/nbserver-1145863-open.html
+    Or copy and paste one of these URLs:
+        http://edgetcl:8888/?token=31bdcd6940967fb1b5bc029655629b0d37d903607390ae6e
+     or http://127.0.0.1:8888/?token=31bdcd6940967fb1b5bc029655629b0d37d903607390ae6e
+[I 10:49:42.326 NotebookApp] Interrupted...
+[I 10:49:42.326 NotebookApp] Shutting down 0 kernels
+[I 10:49:42.326 NotebookApp] Shutting down 0 terminals
+[I 10:49:55.799 NotebookApp] Serving notebooks from local directory: /home/jangwon/tinyml
+[I 10:49:55.799 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 10:49:55.804 NotebookApp] http://edgetcl:8888/?token=ee9e5e81306ad627800c1326f5077cc54e8b8427be465794
+[I 10:49:55.804 NotebookApp]  or http://127.0.0.1:8888/?token=ee9e5e81306ad627800c1326f5077cc54e8b8427be465794
+[I 10:49:55.804 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:49:55.806 NotebookApp] No web browser found: could not locate runnable browser.
+[C 10:49:55.806 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/jangwon/.local/share/jupyter/runtime/nbserver-1145866-open.html
+    Or copy and paste one of these URLs:
+        http://edgetcl:8888/?token=ee9e5e81306ad627800c1326f5077cc54e8b8427be465794
+     or http://127.0.0.1:8888/?token=ee9e5e81306ad627800c1326f5077cc54e8b8427be465794
+[I 10:50:12.229 NotebookApp] 302 GET / (10.250.96.237) 0.300000ms
+[I 10:50:12.237 NotebookApp] 302 GET /tree? (10.250.96.237) 0.540000ms
+[I 10:50:19.393 NotebookApp] 302 POST /login?next=%2Ftree%3F (10.250.96.237) 1.190000ms
+[I 10:50:23.282 NotebookApp] 302 POST /login?next=%2Ftree%3F (10.250.96.237) 0.740000ms
+[I 10:55:11.217 NotebookApp] Creating new notebook in 
+[I 10:55:12.877 NotebookApp] Kernel started: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9, name: tflite
+2022-12-26 10:56:14.714379: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 10:56:15.270149: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 10:56:15.270206: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 10:56:15.270211: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[I 10:57:13.082 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:59:12.888 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:01:12.899 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:03:12.907 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:05:12.916 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:07:12.928 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:09:12.942 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:11:12.952 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:12:23.392 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:12:26.019 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:12:26.033 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:12:26.538 NotebookApp] Replaying 3 buffered messages
+[I 11:13:12.966 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:15:12.979 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:17:12.990 NotebookApp] Saving file at /Untitled.ipynb
+2022-12-26 11:17:38.789049: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:17:39.324501: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:17:39.324557: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:17:39.324561: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[I 11:19:13.401 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:21:13.023 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:23:13.433 NotebookApp] Saving file at /Untitled.ipynb
+2022-12-26 11:25:03.881989: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:03.924335: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:03.924519: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:03.925401: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:25:03.930844: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:03.930976: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:03.931085: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:04.312331: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:04.312499: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:04.312615: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:25:04.312728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22190 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+[I 11:25:13.064 NotebookApp] Saving file at /Untitled.ipynb
+2022-12-26 11:31:42.487044: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:630] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-12-26 11:31:42.729239: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x55edf713ce10 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-12-26 11:31:42.729263: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): NVIDIA GeForce RTX 3090, Compute Capability 8.6
+2022-12-26 11:31:42.732755: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2022-12-26 11:31:42.849128: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[I 11:33:12.931 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:34:13.110 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:34:15.839 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:34:15.857 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:34:16.181 NotebookApp] Replaying 3 buffered messages
+[I 11:34:45.266 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:34:45.491 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:34:45.506 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:34:46.013 NotebookApp] Replaying 3 buffered messages
+2022-12-26 11:34:46.034334: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:34:46.603766: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:34:46.603822: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:34:46.603827: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-12-26 11:34:47.607347: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:47.634759: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:47.634948: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:47.635344: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:34:47.640356: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:47.640490: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:47.640603: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:48.018464: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:48.018633: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:48.018751: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:34:48.018866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22190 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+2022-12-26 11:34:49.294326: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:630] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-12-26 11:34:49.296573: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x55cadd810860 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-12-26 11:34:49.296599: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): NVIDIA GeForce RTX 3090, Compute Capability 8.6
+2022-12-26 11:34:49.303323: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2022-12-26 11:34:49.419298: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[I 11:35:12.908 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:36:15.512 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:36:18.240 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:36:18.262 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:36:18.770 NotebookApp] Replaying 3 buffered messages
+2022-12-26 11:36:18.797131: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:36:19.366883: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:36:19.366938: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:
+2022-12-26 11:36:19.366943: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-12-26 11:36:20.370833: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.398243: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.398429: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.399019: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-26 11:36:20.404220: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.404353: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.404466: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.773017: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.773188: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.773306: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-26 11:36:20.773416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22190 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+2022-12-26 11:36:22.037374: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:630] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-12-26 11:36:22.039335: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x55a6642d0730 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-12-26 11:36:22.039357: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): NVIDIA GeForce RTX 3090, Compute Capability 8.6
+2022-12-26 11:36:22.043178: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2022-12-26 11:36:22.133254: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[I 11:37:12.961 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:40:07.624 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:40:10.352 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:40:10.366 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:40:10.873 NotebookApp] Replaying 3 buffered messages
+[I 11:41:12.989 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:43:13.001 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:45:13.020 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:47:12.897 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:49:13.046 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:53:13.450 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:53:57.892 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:54:00.621 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 11:54:00.644 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 11:54:01.148 NotebookApp] Replaying 3 buffered messages
+[I 11:55:13.094 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:01:06.537 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 12:01:09.269 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 12:01:09.285 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 12:01:09.790 NotebookApp] Replaying 3 buffered messages
+[I 12:01:12.913 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:01:55.483 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 12:01:58.210 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 12:01:58.227 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 12:01:58.537 NotebookApp] Replaying 3 buffered messages
+[I 12:03:13.325 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:03:13.505 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:13:13.144 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:15:13.537 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:21:13.220 NotebookApp] Saving file at /Untitled.ipynb
+fully_quantize: 0, inference_type: 6, input_inference_type: INT8, output_inference_type: INT8
+[I 13:27:13.437 NotebookApp] Saving file at /Untitled.ipynb
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[I 13:41:13.202 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:47:13.229 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:49:13.240 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:51:13.257 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:53:13.065 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:55:13.082 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:57:13.292 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:59:13.065 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:01:13.060 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:03:13.056 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:07:13.071 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:08:27.423 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:08:56.919 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:09:13.094 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:10:29.285 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:13:13.108 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:15:13.109 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:17:13.473 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:18:34.456 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:29:13.120 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:31:13.116 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:35:13.130 NotebookApp] Saving file at /tinyml.ipynb
+[I 14:50:01.380 NotebookApp] Saving file at /tinyml.ipynb
+[I 16:53:14.244 NotebookApp] Saving file at /tinyml.ipynb
+[I 16:55:13.273 NotebookApp] Saving file at /tinyml.ipynb
+[I 16:57:13.236 NotebookApp] Saving file at /tinyml.ipynb
+[I 16:59:13.242 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:01:13.258 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:03:13.501 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:05:13.283 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:07:13.296 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:09:13.304 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:11:13.135 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:13:13.155 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:15:13.170 NotebookApp] Saving file at /tinyml.ipynb
+[W 17:17:09.388 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 17:17:12.171 NotebookApp] iopub messages resumed
+[W 17:17:12.507 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 17:17:14.197 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:17:14.336 NotebookApp] Kernel interrupted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 17:19:15.506 NotebookApp] Saving file at /tinyml.ipynb
+[W 17:20:51.391 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 17:20:53.693 NotebookApp] Kernel interrupted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 17:21:13.650 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:25:41.264 NotebookApp] Saving file at /tensorflow/tensorflow/lite/micro/examples/hello_world/model.cc
+[I 17:27:13.715 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:29:13.647 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:30:28.612 NotebookApp] Saving file at /tensorflow/tensorflow/lite/micro/examples/hello_world/main.cc
+[I 17:31:13.309 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:33:13.320 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:33:15.165 NotebookApp] Saving file at /tinyml.ipynb
+[I 17:35:13.353 NotebookApp] Saving file at /tinyml.ipynb
+[W 17:51:30.827 NotebookApp] delete /tensorflow/tensorflow/lite/micro/tools/make/gen
+[I 18:09:53.462 NotebookApp] Saving file at /tensorflow/tensorflow/lite/micro/examples/hello_world/main.cc
+[I 18:10:53.251 NotebookApp] Starting buffering for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 18:10:55.981 NotebookApp] Kernel restarted: 839dcc76-5bba-42fc-ab9b-c8a99910e4f9
+[I 18:10:55.994 NotebookApp] Restoring connection for 839dcc76-5bba-42fc-ab9b-c8a99910e4f9:170fb78b5c2a4eb29ea813a69f6e5bdc
+[I 18:10:56.364 NotebookApp] Replaying 4 buffered messages
+[I 18:11:13.410 NotebookApp] Saving file at /tinyml.ipynb
