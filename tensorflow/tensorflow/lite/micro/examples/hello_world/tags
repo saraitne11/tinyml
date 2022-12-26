@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HandleOutput	arduino/output_handler.cc	/^void HandleOutput(tflite::ErrorReporter* error_reporter, float x_value,$/;"	f
+HandleOutput	disco_f746ng/output_handler.cc	/^void HandleOutput(tflite::ErrorReporter* error_reporter, float x_value,$/;"	f
+HandleOutput	output_handler.cc	/^void HandleOutput(tflite::ErrorReporter* error_reporter, float x_value,$/;"	f
+HandleOutput	sparkfun_edge/output_handler.cc	/^void HandleOutput(tflite::ErrorReporter* error_reporter, float x_value,$/;"	f
+TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_CONSTANTS_H_	constants.h	17;"	d
+TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_	main_functions.h	17;"	d
+TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MODEL_H_	model.h	26;"	d
+TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_OUTPUT_HANDLER_H_	output_handler.h	17;"	d
+TF_LITE_MICRO_TEST	hello_world_test.cc	/^TF_LITE_MICRO_TEST(LoadModelAndPerformInference) {$/;"	f
+TF_LITE_MICRO_TEST	output_handler_test.cc	/^TF_LITE_MICRO_TEST(TestCallability) {$/;"	f
+__assert_func	zephyr_riscv/src/assert.cc	/^void __assert_func(const char*, int, const char*, const char*) {}$/;"	f
+app_main	esp/main.cc	/^extern "C" void app_main(void) {$/;"	f
+background_color	disco_f746ng/output_handler.cc	/^const uint32_t background_color = 0xFFF4B400;  \/\/ Yellow$/;"	v
+dot_radius	disco_f746ng/output_handler.cc	/^const int dot_radius = 10;$/;"	v
+error_reporter	main_functions.cc	/^tflite::ErrorReporter* error_reporter = nullptr;$/;"	m	namespace:__anon1	file:
+foreground_color	disco_f746ng/output_handler.cc	/^const uint32_t foreground_color = 0xFFDB4437;  \/\/ Red$/;"	v
+g_model	model.cc	/^alignas(8) const unsigned char g_model[] = {$/;"	v
+g_model_len	model.cc	/^const int g_model_len = 2488;$/;"	v
+height	disco_f746ng/output_handler.cc	/^int height;$/;"	v
+inference_count	main_functions.cc	/^int inference_count = 0;$/;"	m	namespace:__anon1	file:
+initialized	arduino/output_handler.cc	/^bool initialized = false;$/;"	v
+initialized	disco_f746ng/output_handler.cc	/^bool initialized = false;$/;"	v
+input	main_functions.cc	/^TfLiteTensor* input = nullptr;$/;"	m	namespace:__anon1	file:
+interpreter	main_functions.cc	/^tflite::MicroInterpreter* interpreter = nullptr;$/;"	m	namespace:__anon1	file:
+kInferencesPerCycle	arduino/constants.cc	/^const int kInferencesPerCycle = 1000;$/;"	v
+kInferencesPerCycle	constants.cc	/^const int kInferencesPerCycle = 20;$/;"	v
+kInferencesPerCycle	disco_f746ng/constants.cc	/^const int kInferencesPerCycle = 70;$/;"	v
+kInferencesPerCycle	sparkfun_edge/constants.cc	/^const int kInferencesPerCycle = 1000;$/;"	v
+kTensorArenaSize	main_functions.cc	/^constexpr int kTensorArenaSize = 2000;$/;"	m	namespace:__anon1	file:
+kXrange	constants.h	/^const float kXrange = 2.f * 3.14159265359f;$/;"	v
+lcd	disco_f746ng/output_handler.cc	/^LCD_DISCO_F746NG lcd;$/;"	v
+led	arduino/output_handler.cc	/^int led = LED_BUILTIN;$/;"	v
+loop	main_functions.cc	/^void loop() {$/;"	f
+main	main.cc	/^int main(int argc, char* argv[]) {$/;"	f
+midpoint	disco_f746ng/output_handler.cc	/^int midpoint;$/;"	v
+model	main_functions.cc	/^const tflite::Model* model = nullptr;$/;"	m	namespace:__anon1	file:
+output	main_functions.cc	/^TfLiteTensor* output = nullptr;$/;"	m	namespace:__anon1	file:
+setup	main_functions.cc	/^void setup() {$/;"	f
+tensor_arena	main_functions.cc	/^uint8_t tensor_arena[kTensorArenaSize];$/;"	m	namespace:__anon1	file:
+width	disco_f746ng/output_handler.cc	/^int width;$/;"	v
+x_increment	disco_f746ng/output_handler.cc	/^int x_increment;$/;"	v
