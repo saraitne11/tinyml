@@ -22,7 +22,11 @@ limitations under the License.
 
 int main(int argc, char* argv[]) {
   setup();
-  while (true) {
+  for(int i=0; i<200; i++){
     loop();
   }
+  // setup();
+  // while (true) {
+  //   loop();
+  // }
 }

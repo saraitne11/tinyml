@@ -13,12 +13,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
+#include <stdio.h>
 #include "tensorflow/lite/micro/examples/hello_world/output_handler.h"
 
 void HandleOutput(tflite::ErrorReporter* error_reporter, float x_value,
                   float y_value) {
   // Log the current X and Y values
-  TF_LITE_REPORT_ERROR(error_reporter, "x_value: %f, y_value: %f\n",
-                       static_cast<double>(x_value),
-                       static_cast<double>(y_value));
+  // TF_LITE_REPORT_ERROR(error_reporter, 
+  //                      "x_value: %f, y_value: %f",
+  //                      static_cast<double>(x_value),
+  //                      static_cast<double>(y_value));
+  printf("x: %10.8f, y: %10.8f\n", (double)x_value, (double)y_value);
 }
