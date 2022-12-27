@@ -289,3 +289,6 @@ INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 [I 13:14:11.455 NotebookApp] Creating new directory in 
 [I 13:19:14.009 NotebookApp] Saving file at /tinyml.ipynb
 [W 13:20:36.685 NotebookApp] delete /Untitled Folder
+[I 13:21:16.432 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:22:12.332 NotebookApp] Saving file at /tinyml.ipynb
+[I 13:23:13.817 NotebookApp] Saving file at /tinyml.ipynb
