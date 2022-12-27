@@ -25,8 +25,10 @@ int main(int argc, char* argv[]) {
   for(int i=0; i<200; i++){
     loop();
   }
-  // setup();
-  // while (true) {
-  //   loop();
-  // }
+  /*
+  setup();
+  while (true) {
+    loop();
+  }
+  */
 }
